@@ -152,3 +152,7 @@ default['mysql']['tunable']['long_query_time']      = 2
 
 default['mysql']['tunable']['expire_logs_days']     = 10
 default['mysql']['tunable']['max_binlog_size']      = "100M"
+
+default['mysql']['tunable']['default_storage_engine']  = 'INNODB'
+default['mysql']['tunable']['character_set_server']    = 'utf8'
+default['mysql']['tunable']['collation_server']        = 'utf8_general_ci'
